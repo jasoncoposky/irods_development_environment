@@ -29,6 +29,8 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
         git \
         gnupg \
         libxml2-dev \
+        libzmq3-dev \
+        libfmt-dev \
         lsb-release \
         python3 \
         python3-distro \

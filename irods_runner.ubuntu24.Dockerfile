@@ -92,6 +92,7 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
         python3-pyodbc \
         python3-distro \
         libssl3 \
+        libzmq5 \
         super \
         lsof \
         postgresql \
